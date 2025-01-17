@@ -76,7 +76,7 @@ const Premium = () => {
                     <Ionicons name="fitness" size={30} color="#df71ff" />
                     <Text style={styles.tabText}>Exercise</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.tabButton} onPress={() => route.push('/settings')}>
+                <TouchableOpacity style={styles.tabButton} onPress={() => route.push('/Settings')}>
                     <Ionicons name="settings" size={30} color="#000000" />
                     <Text style={styles.tabText}>Settings</Text>
                 </TouchableOpacity>
